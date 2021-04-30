@@ -11,3 +11,6 @@ Python 3.7+
 Python & Go as backend(22 files)
 Java as frontend(1 file)
 C as testing language(3 files)
+
+# Using 
+Forward feed & backwords proprogation algorithm + custom algorthim as seen in my connect4 ai
