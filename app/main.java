@@ -19,9 +19,6 @@ import java.io.InputStreamReader;
 import java.io.*;
 import java.io.FileReader;
 
-
-
-
 public class main{
   public static void main(String[] args) {
     var Team = "";
@@ -797,31 +794,4 @@ public class main{
     WIJ.setVisible(false);
     f.setVisible(true);
   }
-
 }
-
-    /*
-    final JTextArea textArea = new JTextArea(10, 40);
-    f.getContentPane().add(BorderLayout.CENTER, textArea);
-    
-    final JButton button = new JButton("Click Me");
-    f.getContentPane().add(BorderLayout.SOUTH, button);
-    button.addActionListener(new ActionListener() {
-
-        @Override
-        public void actionPerformed(ActionEvent e) {
-            textArea.append("Button was clicked\n");
-            System.out.println("Button was clicked");
-
-        }
-    });
-
-    String line;
-    try (BufferedReader br = new BufferedReader(new FileReader("file.txt"))) {
-        for (int i = 0; i < n; i++)
-            br.readLine();
-        line = br.readLine();
-    }
-    */
-
-    
