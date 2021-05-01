@@ -31,7 +31,7 @@ class Stats
             (10.times { a = (rand(1..3)) and nums << a } and array = nums.uniq) and 3.times{ @start << overall } 
             add, sub1, sub2 = array.index { |x| [3].include?(x) }, array.index { |x| [1].include?(x) }, array.index { |x| [2].include?(x) }
             rand(1..5).times { (final << (@start[add]+3) and final << (@start[sub1]-1) and final << (@start[sub2]-2)) and @start = final and final = []}
-            (send<<@names[0] and send<<@start and@overall.delete_at(0) and @names.delete_at(0) and i += 1 and @fin<<send)
+            send<<@names[0] and send<<@start and@overall.delete_at(0) and @names.delete_at(0) and i += 1 and @fin<<send
         end
         return (@fin)
     end
