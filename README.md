@@ -6,6 +6,7 @@ to use or try to use, run the createfiles.go
 GoLang 1.14+
 Java 7-8
 Python 3.7+
+Ruby 2.4+
 
 # Facts
 Python & Go as backend(22 files)
