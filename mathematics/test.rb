@@ -47,4 +47,9 @@ class Saving
     end
 end
 
-Saving.new(Stats.new(Sort.new("app/playerteam.txt").show).Depth)
+begin
+    10.times{Saving.new(Stats.new(Sort.new("app/playerteam.txt").show).Depth)}
+rescue TypeError
+ensure
+    10.times{Saving.new(Stats.new(Sort.new("app/playerteam.txt").show).Depth)}
+end
