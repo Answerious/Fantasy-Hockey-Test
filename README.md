@@ -15,3 +15,6 @@ C as testing language(3 files)
 
 # Using 
 Forward feed & backwords proprogation algorithm + custom algorthim as seen in my connect4 ai
+
+#Update Log
+May 3, 2021 11:06 MST 
