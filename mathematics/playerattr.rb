@@ -1,7 +1,9 @@
+"""
 /
 PLAYER STAT GENERATOR
 FYI this is very broken and doesn't work often
 /
+"""
 
 require 'pathname'
 
@@ -15,12 +17,14 @@ class Sort
     end
 end
 
+"""
 /
 TODO -- Overall - > Accuracy, Power, Strengh 
 An Overall will be each substat added and divided by 3
 Random numbers for each one so it could be 83 OVR but
 Accuracy = 87, Power = 80, Strengh = 82
 /
+"""
 
 class Stats
     def initialize(file)
@@ -39,9 +43,11 @@ class Stats
     end
 end
 
+"""
 /
 Saving player data
 /
+"""
 
 class Saving
     def initialize(data)
@@ -52,6 +58,10 @@ end
 def path
     pn = Pathname.new("/Fantasy Hockey/mathematics/playerattr.rb") and return pn.dirname.to_s + Pathname::SEPARATOR_LIST
 end
+
+puts (File.expand_path(__FILE__))
+
+
 
 begin
     10.times{Saving.new(Stats.new(Sort.new("app/playerteam.txt").show).Depth)}
